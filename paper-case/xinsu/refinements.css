@@ -1,0 +1,12 @@
+/* Small adjustments discovered in real browser walkthrough. */
+#game{overflow:clip}
+.finish-actions button{color:var(--ink)}
+.drive{height:130px}
+.aqi.fly #aqi-sprite{animation:flap .18s steps(1) infinite}
+@keyframes flap{0%,100%{background-position:50% 100%}50%{background-position:100% 100%}}
+.destination-options button small{display:block;font-size:9px;opacity:.65;margin-top:8px}
+#destination details{font-size:10px;line-height:1.9;margin-top:18px}
+#destination summary{cursor:pointer;min-height:35px;padding:8px 0}
+#destination details p{margin:5px 0}
+#photo-feedback{font-size:11px;line-height:1.8;color:#a84634}
+@media(max-width:760px){body[data-view=paper] .aqi{bottom:285px;width:96px;height:96px;left:1%}#reset-camera{top:auto;bottom:25px}.drive{height:100px}.story p{font-size:12px}.paper-copy h1{font-size:25px;letter-spacing:-.03em}}

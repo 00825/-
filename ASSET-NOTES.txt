@@ -1,0 +1,5 @@
+阿奇 · 城市寻人手记
+五章互动作品。建筑为艺术化示意，角色与寻人故事为虚构。
+配音与音乐由项目用户提供；美术为项目原创设定与生成式工具辅助制作。
+Three.js 的 MIT 许可见 heritage/vendor/THREE-LICENSE.txt。
+Kenney 音效使用 CC0 许可，原文见 licenses/Kenney-CC0.txt。
